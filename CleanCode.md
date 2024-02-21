@@ -137,8 +137,7 @@
   }
 ```
 
-
-
+# The concept of "clean code" and its principles were popularized by Robert C. Martin, also known as Uncle Bob, in his book titled "Clean Code: A Handbook of Agile Software Craftsmanship," which was first published in 2008.The ideas presented in "Clean Code" have since become widely adopted in the software development community and are considered essential for producing high-quality software products that are easier to understand, debug, and extend over time
 
 
 
