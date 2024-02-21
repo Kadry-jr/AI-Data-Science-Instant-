@@ -1,4 +1,4 @@
-### **Clean Code Rules**
+# **Clean Code Rules**
 1. Meaningful Names
 
   Choose descriptive and meaningful names for variables, functions, classes, and methods. Names should reveal intent and make the code self-explanatory.
