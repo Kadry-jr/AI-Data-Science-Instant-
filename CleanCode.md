@@ -1,5 +1,5 @@
 ### **Clean Code Rules**
-1. #Meaningful Names
+1. Meaningful Names
 
   Choose descriptive and meaningful names for variables, functions, classes, and methods. Names should reveal intent and make the code self-explanatory.
   ``` 
@@ -9,7 +9,7 @@
   // Good example
   int elapsedTimeInDays;
   ```
-2.#Functions Should Do One Thing
+2.Functions Should Do One Thing
       
   Functions should have a single responsibility and should do one thing. They should be small and concise.
   ```
@@ -28,7 +28,7 @@
       // send email
   }
   ```
-3.#Avoid Side Effects
+3.Avoid Side Effects
 
   Functions should not produce side effects. They should operate only on their inputs and not modify any other state outside the function.
   ```
@@ -42,7 +42,7 @@
       // modify database using input data
   }
 ```
-4.#Comments
+4.Comments
 
   Write clean, self-explanatory code that does not require comments for understanding. Comments should be used sparingly and only when necessary to clarify complex logic.
   ```
@@ -57,7 +57,7 @@
       // perform operation
   }
   ```
-5.#Formatting
+5.Formatting
 
   Follow consistent formatting and coding style throughout the codebase. Use proper indentation, spacing, and naming conventions.
   ```
@@ -67,7 +67,7 @@
   // Good example
   int sum = b + c;
   ```
-6.#Error Handling
+6.Error Handling
 
   Properly handle errors and exceptions in your code. Use try-catch blocks where necessary and provide meaningful error messages.
   ```
@@ -85,7 +85,7 @@
       std::cerr << "Error: " << e.what() << std::endl;
   }
 ```
-7.#Single Responsibility Principle (SRP)
+7.Single Responsibility Principle (SRP)
 
   Each class, function, or module should have a single responsibility and should only change for one reason.
   ```
@@ -116,7 +116,7 @@
       }
   };
   ```
-8.#Don't Repeat Yourself (DRY)
+8.Don't Repeat Yourself (DRY)
 
   Avoid code duplication by extracting common functionality into reusable functions, methods, or classes.
   ```
