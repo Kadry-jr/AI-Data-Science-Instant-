@@ -3,9 +3,10 @@
 
 1. ### Indexing:
    
-     Proper indexing can significantly improve query performance by allowing the database engine to quickly locate and retrieve data. Identify frequently queried columns and create appropriate indexes to speed up SELECT, JOIN,        and WHERE clauses.
+     Proper indexing can significantly improve query performance by allowing the database engine to quickly locate and retrieve data. Identify frequently queried columns and create appropriate indexes to speed up SELECT, JOIN,and WHERE clauses.
   
-2. ### Normalization and Denormalization: Normalize the database structure to reduce redundancy and improve data integrity. However, judiciously denormalize where necessary to reduce the need for joins and improve query performance.
+2. ### Normalization and Denormalization:
+ Normalize the database structure to reduce redundancy and improve data integrity. However, judiciously denormalize where necessary to reduce the need for joins and improve query performance.
   
 3. ### Table Partitioning:
  
