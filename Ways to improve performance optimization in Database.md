@@ -5,9 +5,7 @@
    
      Proper indexing can significantly improve query performance by allowing the database engine to quickly locate and retrieve data. Identify frequently queried columns and create appropriate indexes to speed up SELECT, JOIN,        and WHERE clauses.
   
-2. ### Query Optimization:
-
-   Write efficient SQL queries by minimizing the use of functions, avoiding unnecessary joins, and optimizing WHERE clauses. Analyze query execution plans and use tools like EXPLAIN to identify bottlenecks and optimize query         performance.
+2. ### Normalization and Denormalization: Normalize the database structure to reduce redundancy and improve data integrity. However, judiciously denormalize where necessary to reduce the need for joins and improve query performance.
   
 3. ### Table Partitioning:
  
@@ -39,5 +37,9 @@
   
 12. ### Regular Maintenance and Optimization:
        Perform routine database maintenance tasks such as index rebuilding, statistics updates, and vacuuming to ensure optimal database performance. Regularly monitor database health and performance metrics to identify and address potential issues proactively.
+
+13. ### Query Optimization:
+
+   Write efficient SQL queries by minimizing the use of functions, avoiding unnecessary joins, and optimizing WHERE clauses. Analyze query execution plans and use tools like EXPLAIN to identify bottlenecks and optimize query         performance.
   
 ### By implementing these strategies and techniques, you can optimize database performance, enhance scalability, and ensure efficient data processing for your applications
